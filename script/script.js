@@ -16,9 +16,9 @@ console.log("La suma entre " + num1 + " i " + num2 + " és " + (num1+num2));
 let nota_examen = prompt("Digues quina nota tens!");
 
 if (nota_examen<5){
-    console.log("Llastima, has suspés l'exament per un " + nota_examen);
+    alert("Llastima, has suspés l'exament per un " + nota_examen);
 }else{
-    console.log("Enhorabona! has aprovat l'exament per un " + nota_examen);
+    alert("Enhorabona! has aprovat l'exament per un " + nota_examen);
 }
 
 let frase = "Tinc un cotxe de color blau";
