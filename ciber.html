@@ -9,27 +9,27 @@
 <body>
     <form name="calculator">
     <h3>Calculadora - Cristian Bars</h3>
-    <input type="textfield" name="ans" value="">
+    <button id="result"></button>
     <br>
-    <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
-    <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
-    <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
-    <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+    <input type="button" value="1" onClick="add('1')">
+    <input type="button" value="2" onClick="add('2')">
+    <input type="button" value="3" onClick="add('3')">
+    <input type="button" value="+" onClick="suma()">
     <br>
-    <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
-    <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
-    <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
-    <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+    <input type="button" value="4" onClick="add('4')">
+    <input type="button" value="5" onClick="add('5')">
+    <input type="button" value="6" onClick="add('6')">
+    <input type="button" value="-" onClick="resta()">
     <br>
-    <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
-    <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
-    <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
-    <input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+    <input type="button" value="7" onClick="add('7')">
+    <input type="button" value="8" onClick="add('8')">
+    <input type="button" value="9" onClick="add('9')">
+    <input type="button" value="*" onClick="multiplicacion()">
     <br>
-    <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
-    <input type="reset" value="c">
-    <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
-    <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    <input type="button" value="0" onClick="add('0')">
+    <input type="reset" value="c" onClick="del()">
+    <input type="button" value="/" onClick="division()">
+    <input type="button" value="=" onClick="calc()">
     </form>
 </body>
 <script src="script/script.js"></script>
